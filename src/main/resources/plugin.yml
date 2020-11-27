@@ -1,0 +1,9 @@
+name: DrillHub
+api-version: 1.13
+version: 1.0-SNAPSHOT
+main: com.protonmail.itsTurnip.DrillHub.DrillHub
+depend: [Vault]
+permissions:
+  drillhub.armorstands.modify:
+    description: Allows player to modify armor stands
+    default: op
